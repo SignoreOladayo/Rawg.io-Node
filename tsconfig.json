@@ -1,0 +1,19 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Node 18",
+    "_version": "18.2.0",
+    "compilerOptions": {
+      "lib": ["es5", "dom"],
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "target": "es5",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "outDir": "dist",
+      "typeRoots": ["./node_modules/@types/","./src/types"]
+    },
+    "include": ["./src/types/*.d.ts", "./src/**/*.ts"],
+    "exclude": ["node_modules/", "src/types"]
+  }
