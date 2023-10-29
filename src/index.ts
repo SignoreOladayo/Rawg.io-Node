@@ -63,7 +63,7 @@ export default Rawg;
 
 
 const test = async () => {
-    const r = new Rawg('8db26189718f4fe59807d6fbb51a10c2');
+    const r = new Rawg('');
     const res = await r.games.details(4544);
     console.log(res)
 };
